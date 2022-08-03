@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    /* background-color: rgb(207, 207, 207); */
+    color: black;
+    padding: 10px;
+    max-width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    padding-left: 20% ;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-right: 30%;
+}
+.navbar ul li{
+    padding-right:60% ;
+
+}
+.navbar ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    min-height: 80vh;
+    text-align: center;
+}
+
+.container .main{
+    height: 20vh;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.container .main h1{
+    font-size:3rem;
+    font-weight: bold;
+}
+.container .main p{
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+    margin-top: 20px;
+}
+
+.container .boxes{
+    width: 100%;
+    height: 98vh;
+    /* background-color:antiquewhite; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .boxes .box{
+    width: 40%;
+
+    min-height: 45vh;
+    margin-bottom: 20px;
+   
+}
+.container .boxes .box img{
+    width: 90%;
+    
+}
+.container .boxes .box .body{
+    width:65%;
+    margin: auto;
+    /* line-height: 20px; */
+}
+.container .boxes .box .body p{
+
+    color: rgb(100, 100, 100);
+}
+.container .boxes .box button{
+    background-color: rgba(95, 46, 0, 0.884);
+    width: 20%;
+    height: 30px;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.btn{
+    background-color: rgb(31, 30, 29);
+    width: 20%;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 1px;
+    margin-top: 5%;
+    font-size: 20px;
+}
+.mid{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(245, 241, 237);
+    margin-top: 10%;
+    margin-bottom:10% ;
+}
+
+.mid .left{
+    max-width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    margin-right: 10%;
+}
+.mid .left p{
+    width: 50%;
+    margin-top: 20px;
+}
+.mid .right{
+    width: 20%;
+    height: 60%;
+    background-image: url(./images/mid.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(243, 235, 224);
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.follow{
+    width: 60%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+}
+.follow .images {
+    width:100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.follow .images img{
+    max-width:18%;
+    max-height: 80%;
+    overflow: hidden;
+}
+.footer{
+    width:100% ;
+    background-color:rgb(243, 235, 224) ;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    height: 20vh !important;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.footer ul li a:hover{
+    color: white;
+}
+
+.footer .input{
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(207, 207, 207);
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer .input:focus{
+    outline: none;
+}
+
+.footer .powered{
+    font-size: 20px;
+    margin-top: 10px;
+    color: grey;
+}
