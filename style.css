@@ -66,20 +66,21 @@
 
 .container .boxes{
     width: 100%;
-    height: 98vh;
+    height: 120vh;
     /* background-color:antiquewhite; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .container .boxes .box{
     width: 40%;
 
     min-height: 45vh;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
    
 }
 .container .boxes .box img{
@@ -92,15 +93,16 @@
     /* line-height: 20px; */
 }
 .container .boxes .box .body p{
-
+    max-height: 25%;
+    overflow: hidden;
     color: rgb(100, 100, 100);
 }
 .container .boxes .box button{
-    background-color: rgba(95, 46, 0, 0.884);
+    background-color: rgb(243, 235, 224);
     width: 20%;
     height: 30px;
     border: none;
-    color: white;
+    color: black;
     border-radius: 3px;
 }
 
@@ -182,7 +184,7 @@
     color: black;
     text-align: center;
     font-weight: bold;
-    height: 20vh !important;
+    height: 30vh !important;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
